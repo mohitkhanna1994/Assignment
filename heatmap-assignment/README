@@ -1,0 +1,28 @@
+HEATMAP assignment: 
+Using angularjs, create a heatmap dashboard with 2 panels/tabs. Rough design sketch attached as well (heatmap.jpg).
+
+Functionality:
+* Panel1: Shows ALL locations in a heatmap (side by side in a grid). 3 locations in json data(A/B/C). Each location has 7 metrics (1,2,3,4,5,6,7) and each metric has a integer value. Take a look at panel.json
+
+* Panel2: Shows SPECIFIC location heatmap. It has a dropdown of all locations. On selecting a location, it shows sub-metrics(param1, param2, param3....). Each submetric is categorized into high medium low.
+
+* One should be able to export to PDF or download as Image.
+
+You CAN use:
+  - angularjs framework and other JS libraries for heatmap assignment.
+ 
+You should:
+  - Pretend that this is as production-quality code for review. So, write modular & readable code.
+  - Design for scalability (can show N number of locations - not just limited to 3 which is a test dataset)
+  - Use any HTML5 feature supported by current Chrome
+  - Make the UI as intuitive as you can.
+
+You may:
+  - Include Twitter Bootstrap or any other CSS frameworks for styling purposes 
+  - Use Es6 or Typescript or Coffescript
+  - Be as creative as possible with the UI/UX design but that's not the primary goal.
+ 
+ 
+
+
+

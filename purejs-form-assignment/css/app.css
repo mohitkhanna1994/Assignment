@@ -1,0 +1,24 @@
+
+#bdy{
+	background-color: lightgrey;
+}
+input,textarea{
+	margin-left:5% !important;
+}
+input[type="text"],input[type="email"],input[type="number"]{
+	height:25px;
+}
+p,button{
+	margin-left:2% !important;
+	margin-top:15px !important;
+	margin-bottom:7px !important;
+}
+input[type="range"]{
+  width : 20%;
+ -webkit-appearance: none;
+  height: 4px;
+  background: #434343;
+  outline: none;
+  margin-right: 1%;
+}
+	
